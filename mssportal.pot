@@ -1,0 +1,775 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MSS PORTAL MULTI-LINGUAL SUPPORT v0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-12 09:19+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: generatePot.php:8
+msgid "DASHBOARD"
+msgstr ""
+
+#: generatePot.php:9
+msgid "INCIDENTS"
+msgstr ""
+
+#: generatePot.php:10
+msgid "SERVICES"
+msgstr ""
+
+#: generatePot.php:11
+msgid "REQUESTS"
+msgstr ""
+
+#: generatePot.php:12
+msgid "REPORTS"
+msgstr ""
+
+#: generatePot.php:13
+msgid "DEVICES"
+msgstr ""
+
+#: generatePot.php:14
+msgid "LOGS"
+msgstr ""
+
+#: generatePot.php:15
+msgid "DOCUMENTS"
+msgstr ""
+
+#: generatePot.php:16
+msgid "Company Name"
+msgstr ""
+
+#: generatePot.php:17
+msgid "General"
+msgstr ""
+
+#: generatePot.php:18
+msgid "Support Passphase"
+msgstr ""
+
+#: generatePot.php:19
+msgid "Change Passphrase"
+msgstr ""
+
+#: generatePot.php:20
+msgid "Profile"
+msgstr ""
+
+#: generatePot.php:21
+msgid "Change Portal Login Password"
+msgstr ""
+
+#: generatePot.php:22
+msgid "Old Password"
+msgstr ""
+
+#: generatePot.php:23
+msgid "New Password"
+msgstr ""
+
+#: generatePot.php:24
+msgid "New Password (confirm)"
+msgstr ""
+
+#: generatePot.php:25
+msgid "Help"
+msgstr ""
+
+#: generatePot.php:26
+msgid "Logout"
+msgstr ""
+
+#: generatePot.php:27
+msgid "Service Status"
+msgstr ""
+
+#: generatePot.php:28
+msgid "Bulletin Board"
+msgstr ""
+
+#: generatePot.php:29
+msgid "Notification for "
+msgstr ""
+
+#: generatePot.php:30
+msgid "Open Tickets"
+msgstr ""
+
+#: generatePot.php:31
+msgid "Health and Incidents"
+msgstr ""
+
+#: generatePot.php:32 generatePot.php:162
+msgid "Status"
+msgstr ""
+
+#: generatePot.php:33
+msgid "Open"
+msgstr ""
+
+#: generatePot.php:34
+msgid "Closed"
+msgstr ""
+
+#: generatePot.php:35 generatePot.php:99
+msgid "Security Incidents"
+msgstr ""
+
+#: generatePot.php:36
+msgid "All"
+msgstr ""
+
+#: generatePot.php:37
+msgid "Current Status - Event Processing"
+msgstr ""
+
+#: generatePot.php:38 generatePot.php:79 generatePot.php:101
+msgid "Ticket ID"
+msgstr ""
+
+#: generatePot.php:39 generatePot.php:80 generatePot.php:102
+#: generatePot.php:204
+msgid "Title"
+msgstr ""
+
+#: generatePot.php:40 generatePot.php:103
+msgid "Opened"
+msgstr ""
+
+#: generatePot.php:41 generatePot.php:104
+msgid "Last Activity"
+msgstr ""
+
+#: generatePot.php:42
+msgid "Close"
+msgstr ""
+
+#: generatePot.php:43
+msgid "Page"
+msgstr ""
+
+#: generatePot.php:44
+msgid "Items per page"
+msgstr ""
+
+#: generatePot.php:45
+msgid "View"
+msgstr ""
+
+#: generatePot.php:46
+#, php-format
+msgid "Copyright @ %d Integralis. All rights reserved."
+msgstr ""
+
+#: generatePot.php:47
+msgid "Privacy Policy & Terms and Conditions"
+msgstr ""
+
+#: generatePot.php:48
+msgid "Contact Us"
+msgstr ""
+
+#: generatePot.php:49
+msgid "Close this window"
+msgstr ""
+
+#: generatePot.php:50
+#, php-format
+msgid "No %s tickets to display"
+msgstr ""
+
+#: generatePot.php:51
+msgid "You do not have access to the device you have are trying to view."
+msgstr ""
+
+#: generatePot.php:52
+msgid "You do not have access to the log file you are trying to download."
+msgstr ""
+
+#: generatePot.php:53
+msgid "You do not have access to the document file you are trying to download."
+msgstr ""
+
+#: generatePot.php:54
+msgid ""
+"Passphrase has been successfully changed. The page will refresh to reload "
+"the changes."
+msgstr ""
+
+#: generatePot.php:55
+msgid ""
+"Password has been successfully changed. You will be redirected to the login "
+"page."
+msgstr ""
+
+#: generatePot.php:56
+msgid "Request not added. Please try again later."
+msgstr ""
+
+#: generatePot.php:57
+msgid "User tried to get data for Log Viewer without having permissions for it"
+msgstr ""
+
+#: generatePot.php:58
+msgid "Create request failed. Please try again later."
+msgstr ""
+
+#: generatePot.php:59
+msgid "ERROR"
+msgstr ""
+
+#: generatePot.php:60
+#, php-format
+msgid ""
+"An error occurred. This is usually just a temporary error. If the problem "
+"persists; please contact %s"
+msgstr ""
+
+#: generatePot.php:61
+msgid "Continue by pressing a menu item above."
+msgstr ""
+
+#: generatePot.php:62
+msgid "You dont have access to this service."
+msgstr ""
+
+#: generatePot.php:63
+msgid "Click here to continue to start page"
+msgstr ""
+
+#: generatePot.php:64
+msgid "NTT Communications Customer Area - Please Login"
+msgstr ""
+
+#: generatePot.php:65
+msgid "Incorrect Password and OTP, please try again"
+msgstr ""
+
+#: generatePot.php:66
+msgid "Incorrect Password, please try again"
+msgstr ""
+
+#: generatePot.php:67
+msgid "Incorrect OTP, please try again"
+msgstr ""
+
+#: generatePot.php:68
+msgid "Your account has been locked or your IP address may have been banned."
+msgstr ""
+
+#: generatePot.php:69
+#, php-format
+msgid ""
+"If you are experiencing difficulty or feel you have reached this page in "
+"error, please contact %s"
+msgstr ""
+
+#: generatePot.php:70
+msgid "Services"
+msgstr ""
+
+#: generatePot.php:71
+msgid "Service Id"
+msgstr ""
+
+#: generatePot.php:72
+msgid "Service Functions"
+msgstr ""
+
+#: generatePot.php:73 generatePot.php:148
+msgid "Device Name"
+msgstr ""
+
+#: generatePot.php:74
+msgid "Service Name"
+msgstr ""
+
+#: generatePot.php:75
+msgid "Status Indicator"
+msgstr ""
+
+#: generatePot.php:76
+msgid "Link"
+msgstr ""
+
+#: generatePot.php:77 generatePot.php:112
+msgid "New Request"
+msgstr ""
+
+#: generatePot.php:78
+msgid "Security Incident Report"
+msgstr ""
+
+#: generatePot.php:81
+msgid "Severity"
+msgstr ""
+
+#: generatePot.php:82
+msgid "Start Date (First activity)"
+msgstr ""
+
+#: generatePot.php:83
+msgid "End Date (Last activity)"
+msgstr ""
+
+#: generatePot.php:84
+msgid "Recommendation"
+msgstr ""
+
+#: generatePot.php:85
+msgid "IDS/IPS Signatures"
+msgstr ""
+
+#: generatePot.php:86
+msgid "DNS Information"
+msgstr ""
+
+#: generatePot.php:87
+msgid "Protocol"
+msgstr ""
+
+#: generatePot.php:88
+msgid "Source IP"
+msgstr ""
+
+#: generatePot.php:89
+msgid "Destination IP"
+msgstr ""
+
+#: generatePot.php:90
+msgid "Device ID"
+msgstr ""
+
+#: generatePot.php:91
+msgid "Download Report"
+msgstr ""
+
+#: generatePot.php:92
+msgid "Health and Availability Incident"
+msgstr ""
+
+#: generatePot.php:93
+msgid "Health and Availability Information"
+msgstr ""
+
+#: generatePot.php:94
+msgid "Service Level"
+msgstr ""
+
+#: generatePot.php:95
+msgid "This device has not been added to the OP5 monitor"
+msgstr ""
+
+#: generatePot.php:96
+msgid "One or more services are reporting a problem"
+msgstr ""
+
+#: generatePot.php:97
+msgid "No record to view"
+msgstr ""
+
+#: generatePot.php:98
+msgid "Incidents"
+msgstr ""
+
+#: generatePot.php:100
+msgid "ID"
+msgstr ""
+
+#: generatePot.php:105
+msgid "Incident Details"
+msgstr ""
+
+#: generatePot.php:106 generatePot.php:121
+msgid "Description"
+msgstr ""
+
+#: generatePot.php:107
+msgid "WHOIS Information"
+msgstr ""
+
+#: generatePot.php:108
+msgid "Country"
+msgstr ""
+
+#: generatePot.php:109
+msgid "Find Records"
+msgstr ""
+
+#: generatePot.php:110
+msgid "Requests"
+msgstr ""
+
+#: generatePot.php:111 generatePot.php:115
+msgid "Request Type"
+msgstr ""
+
+#: generatePot.php:113
+msgid "Issuer"
+msgstr ""
+
+#: generatePot.php:114
+msgid "Date"
+msgstr ""
+
+#: generatePot.php:116
+msgid "Select One"
+msgstr ""
+
+#: generatePot.php:117
+msgid "General Inquiry"
+msgstr ""
+
+#: generatePot.php:118
+msgid "Device Management"
+msgstr ""
+
+#: generatePot.php:119
+msgid "Trouble Ticket"
+msgstr ""
+
+#: generatePot.php:120
+msgid "Contact"
+msgstr ""
+
+#: generatePot.php:122
+msgid "Submit"
+msgstr ""
+
+#: generatePot.php:123
+msgid "Reports"
+msgstr ""
+
+#: generatePot.php:124
+msgid "Service Management Reports"
+msgstr ""
+
+#: generatePot.php:125
+msgid "General Ticket Listing"
+msgstr ""
+
+#: generatePot.php:126
+msgid "Requests Summary"
+msgstr ""
+
+#: generatePot.php:127
+msgid "Security Management Reports"
+msgstr ""
+
+#: generatePot.php:128 generatePot.php:140
+msgid "Validated Security Incident Summary"
+msgstr ""
+
+#: generatePot.php:129
+msgid "Security Incident Summary"
+msgstr ""
+
+#: generatePot.php:130
+msgid "Device Management Reports"
+msgstr ""
+
+#: generatePot.php:131
+msgid "Device Configuration Change Request Summary"
+msgstr ""
+
+#: generatePot.php:132
+msgid "Device Traffic Statistics Summary"
+msgstr ""
+
+#: generatePot.php:133
+msgid "Device Interface Statistics Summary"
+msgstr ""
+
+#: generatePot.php:134
+msgid "Notice: The requested report is not yet available."
+msgstr ""
+
+#: generatePot.php:135
+msgid "Please select a valid date range"
+msgstr ""
+
+#: generatePot.php:136
+msgid "The report you have requested will be sent to you via email."
+msgstr ""
+
+#: generatePot.php:137
+#, php-format
+msgid ""
+"The report you have requested for the period %s to %s will be sent to you "
+"via email."
+msgstr ""
+
+#: generatePot.php:138
+msgid "Log Analysis"
+msgstr ""
+
+#: generatePot.php:139
+msgid "Log Analysis Event Summary Report"
+msgstr ""
+
+#: generatePot.php:141
+msgid "Please selectsss a Ticket ID:"
+msgstr ""
+
+#: generatePot.php:142
+msgid ""
+"No Validated Summary of Security Incident Tickets available for this customer"
+msgstr ""
+
+#: generatePot.php:143
+msgid "No Security Incident Tickets available for this customer"
+msgstr ""
+
+#: generatePot.php:144
+msgid "The report you have selected is not yet available."
+msgstr ""
+
+#: generatePot.php:145
+msgid "Report Schedule"
+msgstr ""
+
+#: generatePot.php:146
+msgid "Devices"
+msgstr ""
+
+#: generatePot.php:147
+msgid "Monitoring Status"
+msgstr ""
+
+#: generatePot.php:149
+msgid "Links"
+msgstr ""
+
+#: generatePot.php:150
+msgid "Device Information"
+msgstr ""
+
+#: generatePot.php:151
+msgid "Object Name"
+msgstr ""
+
+#: generatePot.php:152
+msgid "Location"
+msgstr ""
+
+#: generatePot.php:153
+msgid "Vendor"
+msgstr ""
+
+#: generatePot.php:154
+msgid "Product Line"
+msgstr ""
+
+#: generatePot.php:155
+msgid "Version"
+msgstr ""
+
+#: generatePot.php:156
+msgid "Software Version"
+msgstr ""
+
+#: generatePot.php:157
+msgid "Ruleset Revision"
+msgstr ""
+
+#: generatePot.php:158
+msgid "Device Group"
+msgstr ""
+
+#: generatePot.php:159
+msgid "IDS Signature Pack Version"
+msgstr ""
+
+#: generatePot.php:160
+msgid "Antivirus Pattern Version"
+msgstr ""
+
+#: generatePot.php:161
+msgid "Health and Availability"
+msgstr ""
+
+#: generatePot.php:163
+msgid "Contract Information"
+msgstr ""
+
+#: generatePot.php:164
+msgid "Service Information"
+msgstr ""
+
+#: generatePot.php:165
+msgid "Service Function"
+msgstr ""
+
+#: generatePot.php:166
+msgid "Contract ID"
+msgstr ""
+
+#: generatePot.php:167
+msgid "Contract Start Date"
+msgstr ""
+
+#: generatePot.php:168
+msgid "Contract End Date"
+msgstr ""
+
+#: generatePot.php:169
+msgid "No contract information for this device"
+msgstr ""
+
+#: generatePot.php:170
+msgid "Last Change Requests"
+msgstr ""
+
+#: generatePot.php:171 generatePot.php:177
+msgid "Last Security Incident Tickets"
+msgstr ""
+
+#: generatePot.php:172
+msgid "Ref"
+msgstr ""
+
+#: generatePot.php:173
+msgid "Device has not changed its status yet."
+msgstr ""
+
+#: generatePot.php:174
+#, php-format
+msgid "Device has an unknown status[%s]"
+msgstr ""
+
+#: generatePot.php:175
+msgid "No service to display"
+msgstr ""
+
+#: generatePot.php:176
+msgid "Last Device Management Tickets"
+msgstr ""
+
+#: generatePot.php:178
+msgid "No tickets to display"
+msgstr ""
+
+#: generatePot.php:179
+msgid "Logs"
+msgstr ""
+
+#: generatePot.php:180
+msgid "Log Viewer"
+msgstr ""
+
+#: generatePot.php:181
+msgid "Device"
+msgstr ""
+
+#: generatePot.php:182
+msgid "Available Device"
+msgstr ""
+
+#: generatePot.php:183
+msgid "Select a device"
+msgstr ""
+
+#: generatePot.php:184
+msgid "Selected Device"
+msgstr ""
+
+#: generatePot.php:185
+msgid "List of selected device(s)"
+msgstr ""
+
+#: generatePot.php:186
+msgid "Include inactive devices"
+msgstr ""
+
+#: generatePot.php:187
+msgid "Query Options"
+msgstr ""
+
+#: generatePot.php:188
+msgid "Start Date"
+msgstr ""
+
+#: generatePot.php:189
+msgid "Select a start date"
+msgstr ""
+
+#: generatePot.php:190
+msgid "End Date"
+msgstr ""
+
+#: generatePot.php:191
+msgid "Select an end date"
+msgstr ""
+
+#: generatePot.php:192
+msgid "Save results to File"
+msgstr ""
+
+#: generatePot.php:193
+msgid "Select "
+msgstr ""
+
+#: generatePot.php:194
+msgid "Yes"
+msgstr ""
+
+#: generatePot.php:195
+msgid "No"
+msgstr ""
+
+#: generatePot.php:196
+msgid "Search Filter"
+msgstr ""
+
+#: generatePot.php:197
+msgid "Advanced Options"
+msgstr ""
+
+#: generatePot.php:198
+msgid "Log Downloads"
+msgstr ""
+
+#: generatePot.php:199
+msgid "Save Query"
+msgstr ""
+
+#: generatePot.php:200
+msgid "Tick if you want to save this search criteria"
+msgstr ""
+
+#: generatePot.php:201
+msgid "Search"
+msgstr ""
+
+#: generatePot.php:202
+msgid "Reset"
+msgstr ""
+
+#: generatePot.php:203
+msgid "Documents"
+msgstr ""
+
+#: generatePot.php:205
+msgid "Filename"
+msgstr ""
+
+#: generatePot.php:206
+msgid "Size (in bytes)"
+msgstr ""
+
+#: generatePot.php:207
+msgid "Date Updated"
+msgstr ""
