@@ -5,20 +5,1705 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Feijoa\n"
+"Project-Id-Version: Customer Portal I18n v0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-08-29 02:41+0000\n"
-"PO-Revision-Date: 2013-08-29 12:23+0800\n"
+"POT-Creation-Date: 2013-09-17 09:07+0000\n"
+"PO-Revision-Date: 2013-09-17 17:16+0800\n"
 "Last-Translator: Oliver Arce <Oliver.Arce@emeriocorp.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "Language: Japanese\n"
+"X-Generator: Poedit 1.5.7\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: generatePo.php:44
+#: ca_welcome.php:12 mss/sa_addticket.php:129 mss/sa_addticket.php:133
+#: mss/sa_addticket.php:137 mss/sa_addticket.php:216 mss/sa_addticket.php:220
+#: mss/sa_addticket.php:224 mss/ajax/getservices.php:144
+#: mss/ajax/getservices.php:151 mss/ajax/get_policiesdevices.php:107
+#: mss/ajax/get_policiesdevices.php:124 locale/generatePot.php:149
+msgid "Devices"
+msgstr ""
+
+#: ca_welcome.php:18 locale/generatePot.php:30
+msgid "Service Status"
+msgstr ""
+
+#: ca_welcome.php:38
+msgid "Device is reporting a problem"
+msgstr ""
+
+#: ca_welcome.php:43
+msgid "Device is reporting a warning"
+msgstr ""
+
+#: ca_welcome.php:48
+msgid "Device is running normally"
+msgstr ""
+
+#: ca_welcome.php:53
+msgid "Device is either reporting a problem or the status is unknown"
+msgstr ""
+
+#: ca_welcome.php:59
+msgid "Device has not been added to OP5 Monitoring"
+msgstr ""
+
+#: ca_welcome.php:79
+msgid "No service functions to display"
+msgstr ""
+
+#: ca_welcome.php:88
+msgid "No device to display"
+msgstr ""
+
+#: ca_welcome.php:99 ca_welcome.php:127 locale/generatePot.php:31
+msgid "Bulletin Board"
+msgstr ""
+
+#: ca_welcome.php:118 ca_welcome.php:131
+msgid "The notification feeds may have been disabled for this customer."
+msgstr ""
+
+#: ca_welcome.php:118 ca_welcome.php:131 ca_welcome.php:199 ca_welcome.php:245
+#: ca_welcome.php:294 mss/ajax/getservices.php:250
+#: mss/ajax/getservices.php:311 mss/ajax/getservices.php:347
+#: incidents/requests.php:92 incidents/incidents.php:46
+#: incidents/incidents.php:87
+msgid "Please contact"
+msgstr ""
+
+#: ca_welcome.php:153 mss/ajax/getservices.php:277 incidents/requests.php:46
+msgid "Other Changes"
+msgstr ""
+
+#: ca_welcome.php:166 ca_welcome.php:196 locale/generatePot.php:33
+msgid "Open Tickets"
+msgstr ""
+
+#: ca_welcome.php:168 ca_welcome.php:214 ca_welcome.php:263
+#: mss/ajax/getservices.php:150 mss/ajax/getservices.php:230
+#: mss/ajax/getservices.php:290 mss/ajax/getservices.php:327
+#: mss/ajax/get_policiesdevices.php:123 include/libHealthAvail.php:51
+#: incidents/requests.php:61 incidents/incidents.php:22
+#: incidents/incidents.php:64 locale/generatePot.php:35
+#: locale/generatePot.php:165
+msgid "Status"
+msgstr ""
+
+#: ca_welcome.php:171 ca_welcome.php:219 ca_welcome.php:268
+#: mss/ajax/getservices.php:235 mss/ajax/getservices.php:293
+#: mss/ajax/getservices.php:332 incidents/requests.php:64
+#: incidents/incidents.php:27 incidents/incidents.php:69
+#: locale/generatePot.php:39
+msgid "All"
+msgstr ""
+
+#: ca_welcome.php:185 ca_welcome.php:230 ca_welcome.php:279
+#: mss/ajax/getservices.php:336 incidents/incidents.php:36
+msgid "Cannot load security incidents. Please try again later."
+msgstr ""
+
+#: ca_welcome.php:199 ca_welcome.php:245 ca_welcome.php:294
+#: mss/ajax/getservices.php:250 mss/ajax/getservices.php:311
+#: mss/ajax/getservices.php:347 incidents/requests.php:92
+#: incidents/incidents.php:46 incidents/incidents.php:87
+msgid "This section may have been disabled for this customer."
+msgstr ""
+
+#: ca_welcome.php:212 ca_welcome.php:241 mss/ajax/getservices.php:227
+#: mss/ajax/getservices.php:247 incidents/incidents.php:62
+#: incidents/incidents.php:84
+msgid "Health and Availability Incidents"
+msgstr ""
+
+#: ca_welcome.php:217 ca_welcome.php:266 mss/ajax/getservices.php:233
+#: mss/ajax/getservices.php:330 incidents/incidents.php:25
+#: incidents/incidents.php:67 locale/generatePot.php:36
+msgid "Open"
+msgstr ""
+
+#: ca_welcome.php:218 ca_welcome.php:267 mss/ajax/getservices.php:234
+#: mss/ajax/getservices.php:331 incidents/incidents.php:26
+#: incidents/incidents.php:68 locale/generatePot.php:37
+msgid "Closed"
+msgstr ""
+
+#: ca_welcome.php:261 ca_welcome.php:290 mss/ajax/getservices.php:324
+#: mss/ajax/getservices.php:344 incidents/incidents.php:20
+#: incidents/incidents.php:43 locale/generatePot.php:38
+#: locale/generatePot.php:102
+msgid "Security Incidents"
+msgstr ""
+
+#: ca_welcome.php:306 locale/generatePot.php:40
+msgid "Current Status - Event Processing"
+msgstr ""
+
+#: ca_welcome.php:310
+msgid "Cannot load the Event Funnel Graph. Please try again later."
+msgstr ""
+
+#: profile.php:11
+msgid "You did not write the same password twice!"
+msgstr ""
+
+#: profile.php:16
+msgid "You can not use spaces in your password!"
+msgstr ""
+
+#: profile.php:35 include/sca.class.php:140 include/sca.class.php:168
+#: locale/generatePot.php:23
+msgid "Profile"
+msgstr "プロフィール"
+
+#: profile.php:40 include/sca.class.php:180
+msgid "Change Password"
+msgstr "パスワード変更"
+
+#: profile.php:49
+msgid "Old pasword"
+msgstr "古いパスワード"
+
+#: profile.php:51
+msgid "New pasword"
+msgstr "新しいパスワード"
+
+#: profile.php:53
+msgid "New password (repeat)"
+msgstr "新しいパスワード（リピート）"
+
+#: tab_reports.php:7 include/sca.class.php:419 locale/generatePot.php:126
+msgid "Reports"
+msgstr ""
+
+#: tab_reports.php:10 tab_analysis.php:10
+msgid "Please see the links to the left for more information!"
+msgstr ""
+
+#: tab_help.php:7
+msgid "HELP"
+msgstr ""
+
+#: tab_consulting.php:7
+msgid "Curriculum Vitae"
+msgstr ""
+
+#: tab_consulting.php:8
+msgid ""
+"This page contains current information from the consulting department. For "
+"example, if you have completed projects with Secode's consultants that have "
+"generated reports, you can find them in this folder."
+msgstr ""
+
+#: tab_consulting.php:8
+msgid ""
+"You also have access to view all of the security consultants' CVs within all "
+"of Secode. This gives you a good picture of Secode's knowledge base and "
+"perhaps can inspire you to make new contacts at Secode."
+msgstr ""
+
+#: tab_analysis.php:7
+msgid "Analysis Services"
+msgstr ""
+
+#: tab_administration.php:7
+msgid "Administration"
+msgstr ""
+
+#: tab_administration.php:10
+msgid "Here you are able to see your"
+msgstr ""
+
+#: mss/ticketview.php:109
+msgid "Quick summary"
+msgstr ""
+
+#: mss/ticketview.php:118
+msgid "Reference"
+msgstr ""
+
+#: mss/ticketview.php:177
+msgid "Subscribers"
+msgstr ""
+
+#: mss/ticketview.php:193
+msgid "Subscribe to this event"
+msgstr ""
+
+#: mss/ticketview.php:195
+msgid "Unsubscribe to this event"
+msgstr ""
+
+#: mss/ticketlist.php:55 mss/ticketlist.php:85
+msgid "Currently there are no tickets to display in this view"
+msgstr ""
+
+#: mss/servicesview.php:13 mss/services.php:41 mss/sa_addticket.php:124
+#: mss/sa_addticket.php:211 mss/ajax/getpolicy.php:552
+#: mss/ajax/getpolicy.php:587 include/libHealthAvail.php:38
+#: include/libHealthAvail.php:52 locale/generatePot.php:73
+msgid "Services"
+msgstr ""
+
+#: mss/sa_addticket.php:57
+msgid "Security Administration - Add ticket"
+msgstr ""
+
+#: mss/sa_addticket.php:79 include/sca.class.php:338
+msgid "Change Request"
+msgstr ""
+
+#: mss/sa_addticket.php:86 include/sca.class.php:342
+msgid "Troubleshooting"
+msgstr ""
+
+#: mss/policymonitoring.php:28 mss/policymonitoring.php:60
+msgid "Type"
+msgstr ""
+
+#: mss/policymonitoring.php:29 mss/policymonitoring.php:62
+msgid "Source IP(s)"
+msgstr ""
+
+#: mss/policymonitoring.php:30
+msgid "Destination port(s)"
+msgstr ""
+
+#: mss/policymonitoring.php:31
+msgid "Signature"
+msgstr ""
+
+#: mss/policymonitoring.php:32
+msgid "Day"
+msgstr ""
+
+#: mss/policymonitoring.php:33
+msgid "Sensor"
+msgstr ""
+
+#: mss/policymonitoring.php:34
+msgid "Count"
+msgstr ""
+
+#: mss/policymonitoring.php:61
+msgid "Subtype"
+msgstr ""
+
+#: mss/policymonitoring.php:63 locale/generatePot.php:184
+msgid "Device"
+msgstr ""
+
+#: mss/policymonitoring.php:64 mss/ajax/getpolicy.php:452
+msgid "Interface"
+msgstr ""
+
+#: mss/policymonitoring.php:65
+msgid "Date start"
+msgstr ""
+
+#: mss/policymonitoring.php:66
+msgid "Date stop"
+msgstr ""
+
+#: mss/policymonitoring.php:67 mss/ajax/getpolicy.php:318
+#: mss/ajax/getpolicy.php:546
+msgid "Action"
+msgstr ""
+
+#: mss/policymonitoring.php:92
+msgid "No Policy Monitoring data at the moment (updated every 10 minutes)"
+msgstr ""
+
+#: mss/mssdeliveries.php:14
+msgid "MSS Deliveries"
+msgstr ""
+
+#: mss/mssdeliveries.php:33
+msgid "ref"
+msgstr ""
+
+#: mss/mssdeliveries.php:34
+msgid "date"
+msgstr ""
+
+#: mss/mssdeliveries.php:35
+msgid "file"
+msgstr ""
+
+#: mss/mssdeliveries.php:69
+msgid "Currently no MSS Deliveries available at Secode Customer Area!"
+msgstr ""
+
+#: mss/healthavail.php:14 mss/devicesview.php:197 locale/generatePot.php:164
+msgid "Health and Availability"
+msgstr ""
+
+#: mss/healthavail.php:18
+msgid "Cannot load the device information. Please try again later."
+msgstr ""
+
+#: mss/filedownload.php:14
+msgid "Cannot download the document file. Please try again later."
+msgstr ""
+
+#: mss/downloads.php:16
+msgid "Download Log Files"
+msgstr ""
+
+#: mss/downloads.php:22
+msgid "Cannot download the log file. Please try again later."
+msgstr ""
+
+#: mss/devicesview.php:64
+msgid "Device has not changed its status yet"
+msgstr ""
+
+#: mss/devicesview.php:116
+msgid "High Availability"
+msgstr ""
+
+#: mss/devicesview.php:122 mss/ajax/getservices.php:52
+#: mss/ajax/gethealthavail.php:59 mss/ajax/getdevices.php:32
+#: locale/generatePot.php:99
+msgid "One or more services are reporting a problem"
+msgstr ""
+
+#: mss/devicesview.php:126 mss/ajax/getservices.php:56
+#: mss/ajax/gethealthavail.php:63 mss/ajax/getdevices.php:36
+msgid "One or more services are reporting a warning"
+msgstr ""
+
+#: mss/devicesview.php:130 mss/ajax/getservices.php:60
+#: mss/ajax/gethealthavail.php:67 mss/ajax/getdevices.php:40
+msgid "All services are running normally"
+msgstr ""
+
+#: mss/devicesview.php:134 mss/ajax/gethealthavail.php:71
+msgid "Device has not been added to OP5 Monitor"
+msgstr ""
+
+#: mss/devicesview.php:138 mss/ajax/getservices.php:65
+#: mss/ajax/gethealthavail.php:76 mss/ajax/getdevices.php:45
+msgid "One or more services are reporting a problem or an unknown status"
+msgstr ""
+
+#: mss/devicesview.php:150 locale/generatePot.php:153
+msgid "Device Information"
+msgstr ""
+
+#: mss/devicesview.php:150 mss/ajax/getservices.php:128
+msgid "Collapse"
+msgstr ""
+
+#: mss/devicesview.php:154 locale/generatePot.php:154
+msgid "Object Name"
+msgstr ""
+
+#: mss/devicesview.php:159 locale/generatePot.php:155
+msgid "Location"
+msgstr ""
+
+#: mss/devicesview.php:164 locale/generatePot.php:156
+msgid "Vendor"
+msgstr ""
+
+#: mss/devicesview.php:168 locale/generatePot.php:157
+msgid "Product Line"
+msgstr ""
+
+#: mss/devicesview.php:172 locale/generatePot.php:158
+msgid "Version"
+msgstr ""
+
+#: mss/devicesview.php:176 locale/generatePot.php:159
+msgid "Software Version"
+msgstr ""
+
+#: mss/devicesview.php:180 locale/generatePot.php:160
+msgid "Ruleset Revision"
+msgstr ""
+
+#: mss/devicesview.php:197 mss/devicesview.php:223
+msgid "Expand"
+msgstr ""
+
+#: mss/devicesview.php:214
+msgid ""
+"Cannot load the health and availability information. Please try again later."
+msgstr ""
+
+#: mss/devicesview.php:223 locale/generatePot.php:166
+msgid "Contract Information"
+msgstr ""
+
+#: mss/devicesview.php:233 mss/ajax/getdevices.php:100
+#: locale/generatePot.php:168
+msgid "Service Function"
+msgstr ""
+
+#: mss/devicesview.php:234 mss/ajax/getservices.php:152
+#: mss/ajax/getdevices.php:101 locale/generatePot.php:169
+msgid "Contract ID"
+msgstr ""
+
+#: mss/devicesview.php:235
+msgid "Distinguish Name"
+msgstr ""
+
+#: mss/devicesview.php:236
+msgid "Option Type"
+msgstr ""
+
+#: mss/devicesview.php:237 mss/ajax/getdevices.php:102
+#: locale/generatePot.php:170
+msgid "Contract Start Date"
+msgstr ""
+
+#: mss/devicesview.php:238 mss/ajax/getdevices.php:103
+#: locale/generatePot.php:171
+msgid "Contract End Date"
+msgstr ""
+
+#: mss/devicesview.php:244 mss/devicesview.php:248
+msgid "Not Specified"
+msgstr ""
+
+#: mss/devicesview.php:252
+msgid "Other"
+msgstr ""
+
+#: mss/devicesview.php:255
+msgid "BHEC Security Option Service"
+msgstr ""
+
+#: mss/devicesview.php:283 locale/generatePot.php:172
+msgid "No contract information for this device"
+msgstr ""
+
+#: mss/contactinfo.php:9
+msgid "Contact Information"
+msgstr ""
+
+#: mss/contactinfo.php:16
+msgid "My Contact Information"
+msgstr ""
+
+#: mss/contactinfo.php:49
+msgid "No records to view."
+msgstr ""
+
+#: mss/ajax/getslipdevices.php:22 include/sca.class.php:1229
+#: incidents/ajax/addrequest.php:199
+msgid "Please Select a Device"
+msgstr ""
+
+#: mss/ajax/getslipdevices.php:31 mss/ajax/getslipdevices.php:36
+msgid "No device for this service"
+msgstr ""
+
+#: mss/ajax/getservices.php:70 mss/ajax/getdevices.php:50
+msgid "This device has not been added to the OP5 Monitor"
+msgstr ""
+
+#: mss/ajax/getservices.php:128 include/libHealthAvail.php:55
+#: locale/generatePot.php:167
+msgid "Service Information"
+msgstr ""
+
+#: mss/ajax/getservices.php:189
+msgid "This device has not been added to OP5 Monitor"
+msgstr ""
+
+#: mss/ajax/getservices.php:206
+msgid "No devices to display"
+msgstr ""
+
+#: mss/ajax/getservices.php:239 incidents/incidents.php:78
+msgid "Cannot load health and availability incidents. Please try again later."
+msgstr ""
+
+#: mss/ajax/getservices.php:287 mss/ajax/getservices.php:308
+#: incidents/requests.php:59 incidents/requests.php:89
+#: locale/generatePot.php:113
+msgid "Requests"
+msgstr ""
+
+#: mss/ajax/getservices.php:300
+msgid "Cannot load requests list. Please try again later."
+msgstr ""
+
+#: mss/ajax/getpolicy.php:40
+msgid "ERROR: Unable to load policy."
+msgstr ""
+
+#: mss/ajax/getpolicy.php:44
+msgid "ERROR: Access denied."
+msgstr ""
+
+#: mss/ajax/getpolicy.php:53 mss/ajax/getpolicy.php:259
+#: mss/ajax/getpolicy.php:438
+msgid "Information"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:54 mss/ajax/getpolicy.php:261
+#: mss/ajax/get_policiesdevices.php:158 mss/ajax/get_policiesdevices.php:168
+#: mss/ajax/get_policiesdevices.php:225 mss/ajax/get_policiesdevices.php:235
+#: mss/ajax/get_policiesdevices.php:271 mss/ajax/get_policiesdevices.php:281
+#: include/libHealthAvail.php:171 include/libHealthAvail.php:213
+#: incidents/ajax/incidentview.php:112 locale/generatePot.php:42
+#: locale/generatePot.php:83 locale/generatePot.php:105
+#: locale/generatePot.php:207
+msgid "Title"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:55 mss/ajax/getpolicy.php:262
+msgid "Author"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:56 mss/ajax/getpolicy.php:263
+#: locale/generatePot.php:117
+msgid "Date"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:261
+msgid "Deep Security Manager"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:266
+msgid "Anti Malware"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:271 mss/ajax/getpolicy.php:316
+#: mss/ajax/getpolicy.php:369 mss/ajax/getpolicy.php:390
+#: locale/generatePot.php:103
+msgid "ID"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:272 mss/ajax/getpolicy.php:317
+#: mss/ajax/getpolicy.php:370 mss/ajax/getpolicy.php:391
+#: mss/ajax/getpolicy.php:414 mss/ajax/getpolicy.php:620
+#: mss/ajax/getpolicy.php:647
+msgid "Name"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:273
+msgid "Alert"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:274
+msgid "File to scan"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:275
+msgid "Folder to scan"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:276 mss/ajax/getpolicy.php:283
+msgid "Scan action"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:277
+msgid "Intelli trap"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:278
+msgid "Scan compressed"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:279
+msgid "Scan compressed layer"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:280
+msgid "Scan compressed smaller"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:281
+msgid "Scan files activity"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:282
+msgid "Spyware"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:284
+msgid "Unscannable action"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:285
+msgid "Exclude scan process ID"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:311
+msgid "Firewall"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:319
+msgid "Dest IP Type"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:320
+msgid "Dest Mac Type"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:321
+msgid "Dest Port Type"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:322
+msgid "Frame No."
+msgstr ""
+
+#: mss/ajax/getpolicy.php:323
+msgid "Frame Type"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:324
+msgid "ICMP Code"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:325
+msgid "ICMP Type"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:326
+msgid "Packet Direction"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:327
+msgid "Priority"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:328 locale/generatePot.php:90
+msgid "Protocol"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:329
+msgid "Protocol Type"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:330
+msgid "Src IP Type"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:331
+msgid "Src Mac Type"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:332
+msgid "Src Port Type"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:333
+msgid "TCP Flag SYN"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:334
+msgid "TCPNot"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:364
+msgid "IP List"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:371 mss/ajax/getpolicy.php:392
+msgid "items"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:385
+msgid "Port List"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:393
+msgid "TBUID"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:408
+msgid "System Information"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:413
+msgid "Key"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:436
+msgid "Print Policy"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:446
+msgid "Device Configuration"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:449
+msgid "Traffic Interface Settings"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:453 mss/ajax/getpolicy.php:500
+msgid "Addresses"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:454
+msgid "Standby"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:455
+msgid "In"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:456
+msgid "Out"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:479
+msgid "Management Interface Settings"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:482
+msgid "IP Address"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:483
+msgid "Netmask"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:484
+msgid "Default gateway"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:496
+msgid "Routing Configuration"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:499
+msgid "Route"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:501
+msgid "Gateway"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:502
+msgid "Metric"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:535
+msgid "Firewall Policy / Network Filtering"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:542
+msgid "Rulebase (Security)"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:545 mss/ajax/getpolicy.php:582
+msgid "Rule"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:547 mss/ajax/getpolicy.php:584
+msgid "Source"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:548 mss/ajax/getpolicy.php:585
+msgid "Zone (Source)"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:549
+msgid "Zone (Destination)"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:550 mss/ajax/getpolicy.php:586
+msgid "Address (Destination)"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:551
+msgid "Application"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:579
+msgid "Rulebase (Network Address Translation)"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:588
+msgid "To-Interface"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:589
+msgid "NAT Type"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:617
+msgid "Network and IP Address Lists"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:621
+msgid "IP Netmask"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:644
+msgid "Address Groups"
+msgstr ""
+
+#: mss/ajax/getpolicy.php:648
+msgid "Member"
+msgstr ""
+
+#: mss/ajax/gethealthavail.php:101
+msgid "Health and Availability Details Page is not available."
+msgstr ""
+
+#: mss/ajax/getdevices.php:65 mss/ajax/get_policiesdevices.php:58
+msgid "Contract has expired"
+msgstr ""
+
+#: mss/ajax/getdevices.php:69
+msgid "Contract will expire today"
+msgstr ""
+
+#: mss/ajax/getdevices.php:79 mss/ajax/get_policiesdevices.php:63
+msgid "Contract will expire in"
+msgstr ""
+
+#: mss/ajax/getdevices.php:84 mss/ajax/get_policiesdevices.php:68
+msgid "Contract is still valid"
+msgstr ""
+
+#: mss/ajax/getdevices.php:89 incidents/requests.php:81
+#: incidents/ajax/addrequest.php:126 locale/generatePot.php:80
+#: locale/generatePot.php:115
+msgid "New Request"
+msgstr ""
+
+#: mss/ajax/get_policiesdevices.php:73
+msgid "Create Change Ticket"
+msgstr ""
+
+#: mss/ajax/get_policiesdevices.php:74
+msgid "Create Problem Ticket"
+msgstr ""
+
+#: mss/ajax/get_policiesdevices.php:101
+msgid "Change Ticket"
+msgstr ""
+
+#: mss/ajax/get_policiesdevices.php:101
+msgid "Problem Ticket"
+msgstr ""
+
+#: mss/ajax/get_policiesdevices.php:112
+msgid "Last Problem Tickets"
+msgstr ""
+
+#: mss/ajax/get_policiesdevices.php:157 mss/ajax/get_policiesdevices.php:224
+#: mss/ajax/get_policiesdevices.php:270 include/libHealthAvail.php:212
+#: locale/generatePot.php:175
+msgid "Ref"
+msgstr ""
+
+#: mss/ajax/get_policiesdevices.php:159 mss/ajax/get_policiesdevices.php:226
+#: mss/ajax/get_policiesdevices.php:272 include/libHealthAvail.php:172
+#: include/libHealthAvail.php:214 locale/generatePot.php:43
+#: locale/generatePot.php:106
+msgid "Opened"
+msgstr ""
+
+#: mss/ajax/get_policiesdevices.php:160 mss/ajax/get_policiesdevices.php:227
+#: mss/ajax/get_policiesdevices.php:273 include/libHealthAvail.php:173
+#: include/libHealthAvail.php:215 locale/generatePot.php:44
+#: locale/generatePot.php:107
+msgid "Last Activity"
+msgstr ""
+
+#: mss/ajax/get_policiesdevices.php:169 mss/ajax/get_policiesdevices.php:236
+#: mss/ajax/get_policiesdevices.php:282
+msgid "Date Opened"
+msgstr ""
+
+#: mss/ajax/get_policiesdevices.php:170 mss/ajax/get_policiesdevices.php:237
+#: mss/ajax/get_policiesdevices.php:283
+msgid "Latest Update"
+msgstr ""
+
+#: mss/ajax/get_policiesdevices.php:208
+msgid "Last Reports "
+msgstr ""
+
+#: mss/ajax/get_policiesdevices.php:213
+msgid "Last Change Tickets"
+msgstr ""
+
+#: include/sca.class.php:67
+msgid ""
+"This is usually just a temporary error. If the problem persists; please "
+"contact"
+msgstr ""
+
+#: include/sca.class.php:67 locale/generatePot.php:64
+msgid "Continue by pressing a menu item above."
+msgstr ""
+
+#: include/sca.class.php:69 locale/generatePot.php:65
+msgid "You dont have access to this service."
+msgstr ""
+
+#: include/sca.class.php:69 locale/generatePot.php:66
+msgid "Click here to continue to start page"
+msgstr ""
+
+#: include/sca.class.php:100
+msgid "NTT Communications Customer Area"
+msgstr ""
+
+#: include/sca.class.php:136 locale/generatePot.php:19
+msgid "Company Name"
+msgstr ""
+
+#: include/sca.class.php:143 locale/generatePot.php:28
+msgid "Help"
+msgstr ""
+
+#: include/sca.class.php:145 locale/generatePot.php:29
+msgid "Logout"
+msgstr ""
+
+#: include/sca.class.php:147 locale/generatePot.php:20
+msgid "General"
+msgstr ""
+
+#: include/sca.class.php:152
+msgid "Support Passphrase"
+msgstr ""
+
+#: include/sca.class.php:155
+msgid "Change passphrase failed. Please try again."
+msgstr ""
+
+#: include/sca.class.php:156
+msgid ""
+"Your new passphrase cannot contain spaces and cannot be the same as the old "
+"one."
+msgstr ""
+
+#: include/sca.class.php:161 locale/generatePot.php:22
+msgid "Change Passphrase"
+msgstr ""
+
+#: include/sca.class.php:175 locale/generatePot.php:24
+msgid "Change Portal Login Password"
+msgstr ""
+
+#: include/sca.class.php:178
+msgid "Change password failed. Please try again."
+msgstr ""
+
+#: include/sca.class.php:179
+msgid ""
+"New and Confirm Passwords should be identical. Password fields cannot "
+"contain spaces."
+msgstr ""
+
+#: include/sca.class.php:180 locale/generatePot.php:25
+msgid "Old Password"
+msgstr ""
+
+#: include/sca.class.php:180 locale/generatePot.php:26
+msgid "New Password"
+msgstr ""
+
+#: include/sca.class.php:180
+msgid "Confirm Password"
+msgstr ""
+
+#: include/sca.class.php:322
+msgid "MSS"
+msgstr ""
+
+#: include/sca.class.php:326 include/sca.class.php:424
+msgid "No access"
+msgstr ""
+
+#: include/sca.class.php:352
+msgid "Security Incident Reports"
+msgstr ""
+
+#: include/sca.class.php:357
+msgid "File Download"
+msgstr ""
+
+#: include/sca.class.php:365
+msgid "Policy Viewer"
+msgstr ""
+
+#: include/sca.class.php:369
+msgid "Health & Availability"
+msgstr ""
+
+#: include/sca.class.php:382 locale/generatePot.php:183
+msgid "Log Viewer"
+msgstr ""
+
+#: include/sca.class.php:386 locale/generatePot.php:201
+msgid "Log Downloads"
+msgstr ""
+
+#: include/sca.class.php:407
+msgid "SLA"
+msgstr ""
+
+#: include/sca.class.php:431
+msgid "View Reports"
+msgstr ""
+
+#: include/sca.class.php:438 locale/generatePot.php:148
+msgid "Report Schedule"
+msgstr ""
+
+#: include/sca.class.php:469
+msgid "Email Address"
+msgstr "メールアドレス"
+
+#: include/sca.class.php:473
+msgid "Please enter a valid email address"
+msgstr "有効なメールアドレスを入力してください"
+
+#: include/sca.class.php:480
+msgid "Copyright"
+msgstr ""
+
+#: include/sca.class.php:480
+msgid "All rights reserved"
+msgstr ""
+
+#: include/sca.class.php:480
+msgid "Privacy Policy &amp; Terms and Conditions"
+msgstr ""
+
+#: include/sca.class.php:480 locale/generatePot.php:51
+msgid "Contact Us"
+msgstr ""
+
+#: include/sca.class.php:496
+msgid "Password"
+msgstr "パスワード"
+
+#: include/sca.class.php:497
+msgid "Please enter your password"
+msgstr "あなたのパスワードを入力します"
+
+#: include/sca.class.php:503
+msgid "OTP"
+msgstr ""
+
+#: include/sca.class.php:504
+msgid "Please enter OTP code, 6 digits (sent to your mobile phone)"
+msgstr ""
+
+#: include/sca.class.php:509
+msgid "Login"
+msgstr "ログイン"
+
+#: include/sca.class.php:509
+msgid "Go Back"
+msgstr ""
+
+#: include/sca.class.php:693 locale/generatePot.php:68
+msgid "Incorrect Password and OTP, please try again"
+msgstr ""
+
+#: include/sca.class.php:699 include/sca.class.php:727
+#: locale/generatePot.php:69
+msgid "Incorrect Password, please try again"
+msgstr "パスワードが正しくありません、もう一度試してください"
+
+#: include/sca.class.php:705 locale/generatePot.php:70
+msgid "Incorrect OTP, please try again"
+msgstr ""
+
+#: include/sca.class.php:766 locale/generatePot.php:71
+msgid "Your account has been locked or your IP address may have been banned."
+msgstr ""
+
+#: include/sca.class.php:766 include/sca.class.php:862
+msgid ""
+"If you are experiencing difficulty or feel you have reached this page in "
+"error, please contact"
+msgstr ""
+
+#: include/sca.class.php:789
+msgid "Invalid email"
+msgstr ""
+
+#: include/sca.class.php:801 include/sca.class.php:821
+#: locale/generatePot.php:67
+msgid "NTT Communications Customer Area - Please Login"
+msgstr ""
+
+#: include/libHealthAvail.php:19 locale/generatePot.php:96
+msgid "Health and Availability Information"
+msgstr ""
+
+#: include/libHealthAvail.php:32
+msgid "Last Check"
+msgstr ""
+
+#: include/libHealthAvail.php:33
+msgid "Duration"
+msgstr ""
+
+#: include/libHealthAvail.php:113 locale/generatePot.php:176
+msgid "Device has not changed its status yet."
+msgstr ""
+
+#: include/libHealthAvail.php:134 locale/generatePot.php:178
+msgid "No service to display"
+msgstr ""
+
+#: include/libHealthAvail.php:154 locale/generatePot.php:179
+msgid "Last Device Management Tickets"
+msgstr ""
+
+#: include/libHealthAvail.php:159 locale/generatePot.php:174
+#: locale/generatePot.php:180
+msgid "Last Security Incident Tickets"
+msgstr ""
+
+#: include/libHealthAvail.php:198 locale/generatePot.php:181
+msgid "No tickets to display"
+msgstr ""
+
+#: include/libHealthAvail.php:269
+msgid ""
+"No tickets to display or this section may have been disabled for this "
+"customer."
+msgstr ""
+
+#: incidents/requests.php:76
+msgid "Cannot load requests. Please try again later."
+msgstr ""
+
+#: incidents/ajax/saveticketview.php:9 incidents/ajax/saveticketview.php:21
+msgid "Ticket id was not a numeric value"
+msgstr ""
+
+#: incidents/ajax/saveticketview.php:12
+msgid "Entrydata was not a string, empty or too long"
+msgstr ""
+
+#: incidents/ajax/incidentview.php:17
+msgid "Ticket ID was not set"
+msgstr ""
+
+#: incidents/ajax/incidentview.php:21
+msgid "Ticket ID was not numeric"
+msgstr ""
+
+#: incidents/ajax/incidentview.php:111 locale/generatePot.php:41
+#: locale/generatePot.php:82 locale/generatePot.php:104
+msgid "Ticket ID"
+msgstr ""
+
+#: incidents/ajax/incidentview.php:126 incidents/ajax/incidentview.php:130
+#: locale/generatePot.php:76 locale/generatePot.php:151
+msgid "Device Name"
+msgstr ""
+
+#: incidents/ajax/incidentview.php:161
+msgid ""
+"Ticket Information is not available at the moment or you don't have "
+"privileges to view this page."
+msgstr ""
+
+#: incidents/ajax/incidentview.php:167 incidents/ajax/incidentview.php:182
+msgid "Ticket Information"
+msgstr ""
+
+#: incidents/ajax/incidentview.php:173 locale/generatePot.php:81
+msgid "Security Incident Report"
+msgstr ""
+
+#: incidents/ajax/incidentview.php:176 locale/generatePot.php:95
+msgid "Health and Availability Incident"
+msgstr ""
+
+#: incidents/ajax/incidentview.php:179
+msgid "Request Details"
+msgstr ""
+
+#: incidents/ajax/addrequest.php:138 locale/generatePot.php:114
+#: locale/generatePot.php:118
+msgid "Request Type"
+msgstr ""
+
+#: incidents/ajax/addrequest.php:141 locale/generatePot.php:119
+msgid "Select One"
+msgstr ""
+
+#: incidents/ajax/addrequest.php:218 locale/generatePot.php:61
+msgid "Create request failed. Please try again later."
+msgstr ""
+
+#: locale/generatePot.php:11
 msgid "DASHBOARD"
 msgstr "ダッシュボード"
+
+#: locale/generatePot.php:12
+msgid "INCIDENTS"
+msgstr "インシデント"
+
+#: locale/generatePot.php:13
+msgid "SERVICES"
+msgstr "サービス"
+
+#: locale/generatePot.php:14
+msgid "REQUESTS"
+msgstr "要求"
+
+#: locale/generatePot.php:15
+msgid "REPORTS"
+msgstr "レポート"
+
+#: locale/generatePot.php:16
+msgid "DEVICES"
+msgstr "デバイス"
+
+#: locale/generatePot.php:17
+msgid "LOGS"
+msgstr "ログ"
+
+#: locale/generatePot.php:18
+msgid "DOCUMENTS"
+msgstr "ドキュメント"
+
+#: locale/generatePot.php:21
+msgid "Support Passphase"
+msgstr ""
+
+#: locale/generatePot.php:27
+msgid "New Password (confirm)"
+msgstr ""
+
+#: locale/generatePot.php:32
+msgid "Notification for "
+msgstr ""
+
+#: locale/generatePot.php:34
+msgid "Health and Incidents"
+msgstr ""
+
+#: locale/generatePot.php:45
+msgid "Close"
+msgstr ""
+
+#: locale/generatePot.php:46
+msgid "Page"
+msgstr ""
+
+#: locale/generatePot.php:47
+msgid "Items per page"
+msgstr ""
+
+#: locale/generatePot.php:48
+msgid "View"
+msgstr ""
+
+#: locale/generatePot.php:49
+#, php-format
+msgid "Copyright @ %d Integralis. All rights reserved."
+msgstr ""
+
+#: locale/generatePot.php:50
+msgid "Privacy Policy & Terms and Conditions"
+msgstr ""
+
+#: locale/generatePot.php:52
+msgid "Close this window"
+msgstr ""
+
+#: locale/generatePot.php:53
+#, php-format
+msgid "No %s tickets to display"
+msgstr ""
+
+#: locale/generatePot.php:54
+msgid "You do not have access to the device you have are trying to view."
+msgstr ""
+
+#: locale/generatePot.php:55
+msgid "You do not have access to the log file you are trying to download."
+msgstr ""
+
+#: locale/generatePot.php:56
+msgid "You do not have access to the document file you are trying to download."
+msgstr ""
+
+#: locale/generatePot.php:57
+msgid ""
+"Passphrase has been successfully changed. The page will refresh to reload "
+"the changes."
+msgstr ""
+
+#: locale/generatePot.php:58
+msgid ""
+"Password has been successfully changed. You will be redirected to the login "
+"page."
+msgstr ""
+
+#: locale/generatePot.php:59
+msgid "Request not added. Please try again later."
+msgstr ""
+
+#: locale/generatePot.php:60
+msgid "User tried to get data for Log Viewer without having permissions for it"
+msgstr ""
+
+#: locale/generatePot.php:62
+msgid "ERROR"
+msgstr ""
+
+#: locale/generatePot.php:63
+#, php-format
+msgid ""
+"An error occurred. This is usually just a temporary error. If the problem "
+"persists; please contact %s"
+msgstr ""
+
+#: locale/generatePot.php:72
+#, php-format
+msgid ""
+"If you are experiencing difficulty or feel you have reached this page in "
+"error, please contact %s"
+msgstr ""
+
+#: locale/generatePot.php:74
+msgid "Service Id"
+msgstr ""
+
+#: locale/generatePot.php:75
+msgid "Service Functions"
+msgstr ""
+
+#: locale/generatePot.php:77
+msgid "Service Name"
+msgstr ""
+
+#: locale/generatePot.php:78
+msgid "Status Indicator"
+msgstr ""
+
+#: locale/generatePot.php:79
+msgid "Link"
+msgstr ""
+
+#: locale/generatePot.php:84
+msgid "Severity"
+msgstr ""
+
+#: locale/generatePot.php:85
+msgid "Start Date (First activity)"
+msgstr ""
+
+#: locale/generatePot.php:86
+msgid "End Date (Last activity)"
+msgstr ""
+
+#: locale/generatePot.php:87
+msgid "Recommendation"
+msgstr ""
+
+#: locale/generatePot.php:88
+msgid "IDS/IPS Signatures"
+msgstr ""
+
+#: locale/generatePot.php:89
+msgid "DNS Information"
+msgstr ""
+
+#: locale/generatePot.php:91
+msgid "Source IP"
+msgstr ""
+
+#: locale/generatePot.php:92
+msgid "Destination IP"
+msgstr ""
+
+#: locale/generatePot.php:93
+msgid "Device ID"
+msgstr ""
+
+#: locale/generatePot.php:94
+msgid "Download Report"
+msgstr ""
+
+#: locale/generatePot.php:97
+msgid "Service Level"
+msgstr ""
+
+#: locale/generatePot.php:98
+msgid "This device has not been added to the OP5 monitor"
+msgstr ""
+
+#: locale/generatePot.php:100
+msgid "No record to view"
+msgstr ""
+
+#: locale/generatePot.php:101
+msgid "Incidents"
+msgstr ""
+
+#: locale/generatePot.php:108
+msgid "Incident Details"
+msgstr ""
+
+#: locale/generatePot.php:109 locale/generatePot.php:124
+msgid "Description"
+msgstr ""
+
+#: locale/generatePot.php:110
+msgid "WHOIS Information"
+msgstr ""
+
+#: locale/generatePot.php:111
+msgid "Country"
+msgstr ""
+
+#: locale/generatePot.php:112
+msgid "Find Records"
+msgstr ""
+
+#: locale/generatePot.php:116
+msgid "Issuer"
+msgstr ""
+
+#: locale/generatePot.php:120
+msgid "General Inquiry"
+msgstr ""
+
+#: locale/generatePot.php:121
+msgid "Device Management"
+msgstr ""
+
+#: locale/generatePot.php:122
+msgid "Trouble Ticket"
+msgstr ""
+
+#: locale/generatePot.php:123
+msgid "Contact"
+msgstr ""
+
+#: locale/generatePot.php:125
+msgid "Submit"
+msgstr ""
+
+#: locale/generatePot.php:127
+msgid "Service Management Reports"
+msgstr ""
+
+#: locale/generatePot.php:128
+msgid "General Ticket Listing"
+msgstr ""
+
+#: locale/generatePot.php:129
+msgid "Requests Summary"
+msgstr ""
+
+#: locale/generatePot.php:130
+msgid "Security Management Reports"
+msgstr ""
+
+#: locale/generatePot.php:131 locale/generatePot.php:143
+msgid "Validated Security Incident Summary"
+msgstr ""
+
+#: locale/generatePot.php:132
+msgid "Security Incident Summary"
+msgstr ""
+
+#: locale/generatePot.php:133
+msgid "Device Management Reports"
+msgstr ""
+
+#: locale/generatePot.php:134
+msgid "Device Configuration Change Request Summary"
+msgstr ""
+
+#: locale/generatePot.php:135
+msgid "Device Traffic Statistics Summary"
+msgstr ""
+
+#: locale/generatePot.php:136
+msgid "Device Interface Statistics Summary"
+msgstr ""
+
+#: locale/generatePot.php:137
+msgid "Notice: The requested report is not yet available."
+msgstr ""
+
+#: locale/generatePot.php:138
+msgid "Please select a valid date range"
+msgstr ""
+
+#: locale/generatePot.php:139
+msgid "The report you have requested will be sent to you via email."
+msgstr ""
+
+#: locale/generatePot.php:140
+#, php-format
+msgid ""
+"The report you have requested for the period %s to %s will be sent to you "
+"via email."
+msgstr ""
+
+#: locale/generatePot.php:141
+msgid "Log Analysis"
+msgstr ""
+
+#: locale/generatePot.php:142
+msgid "Log Analysis Event Summary Report"
+msgstr ""
+
+#: locale/generatePot.php:144
+msgid "Please selectsss a Ticket ID:"
+msgstr ""
+
+#: locale/generatePot.php:145
+msgid ""
+"No Validated Summary of Security Incident Tickets available for this customer"
+msgstr ""
+
+#: locale/generatePot.php:146
+msgid "No Security Incident Tickets available for this customer"
+msgstr ""
+
+#: locale/generatePot.php:147
+msgid "The report you have selected is not yet available."
+msgstr ""
+
+#: locale/generatePot.php:150
+msgid "Monitoring Status"
+msgstr ""
+
+#: locale/generatePot.php:152
+msgid "Links"
+msgstr ""
+
+#: locale/generatePot.php:161
+msgid "Device Group"
+msgstr ""
+
+#: locale/generatePot.php:162
+msgid "IDS Signature Pack Version"
+msgstr ""
+
+#: locale/generatePot.php:163
+msgid "Antivirus Pattern Version"
+msgstr ""
+
+#: locale/generatePot.php:173
+msgid "Last Change Requests"
+msgstr ""
+
+#: locale/generatePot.php:177
+#, php-format
+msgid "Device has an unknown status[%s]"
+msgstr ""
+
+#: locale/generatePot.php:182
+msgid "Logs"
+msgstr ""
+
+#: locale/generatePot.php:185
+msgid "Available Device"
+msgstr ""
+
+#: locale/generatePot.php:186
+msgid "Select a device"
+msgstr ""
+
+#: locale/generatePot.php:187
+msgid "Selected Device"
+msgstr ""
+
+#: locale/generatePot.php:188
+msgid "List of selected device(s)"
+msgstr ""
+
+#: locale/generatePot.php:189
+msgid "Include inactive devices"
+msgstr ""
+
+#: locale/generatePot.php:190
+msgid "Query Options"
+msgstr ""
+
+#: locale/generatePot.php:191
+msgid "Start Date"
+msgstr ""
+
+#: locale/generatePot.php:192
+msgid "Select a start date"
+msgstr ""
+
+#: locale/generatePot.php:193
+msgid "End Date"
+msgstr ""
+
+#: locale/generatePot.php:194
+msgid "Select an end date"
+msgstr ""
+
+#: locale/generatePot.php:195
+msgid "Save results to File"
+msgstr ""
+
+#: locale/generatePot.php:196
+msgid "Select "
+msgstr ""
+
+#: locale/generatePot.php:197
+msgid "Yes"
+msgstr ""
+
+#: locale/generatePot.php:198
+msgid "No"
+msgstr ""
+
+#: locale/generatePot.php:199
+msgid "Search Filter"
+msgstr ""
+
+#: locale/generatePot.php:200
+msgid "Advanced Options"
+msgstr ""
+
+#: locale/generatePot.php:202
+msgid "Save Query"
+msgstr ""
+
+#: locale/generatePot.php:203
+msgid "Tick if you want to save this search criteria"
+msgstr ""
+
+#: locale/generatePot.php:204
+msgid "Search"
+msgstr ""
+
+#: locale/generatePot.php:205
+msgid "Reset"
+msgstr ""
+
+#: locale/generatePot.php:206
+msgid "Documents"
+msgstr ""
+
+#: locale/generatePot.php:208
+msgid "Filename"
+msgstr ""
+
+#: locale/generatePot.php:209
+msgid "Size (in bytes)"
+msgstr ""
+
+#: locale/generatePot.php:210
+msgid "Date Updated"
+msgstr ""
